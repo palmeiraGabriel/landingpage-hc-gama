@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>Black Friday C&A </title>
+    <link rel="stylesheet" href="recursos/styles.css">
+</head>
+
+<body>
+
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head">Black Friday <br> C&A</h1>
+
+            <p class="splash-subhead">
+                Ofertas de arrasar a partir de quinta!
+            </p>
+            <p>
+                <a href="#cadastro" class="pure-button pure-button-primary">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content">
+            <img class="content-head is-center" src='recursos/imagens/logo_cea-filled-white.png' alt='logo C&A' />
+
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <img alt='roupa feminina' src='recursos/imagens/Salopete-Jeans-Feminina-com-Botoes-e-Bolsos-Azul-Medio-9889640-Azul_Medio_3.webp' />
+                    <h3 class="content-subhead">
+                        <i class="fa fa-rocket"></i> MODA FEMININA COM 70% OFF
+                    </h3>
+                    <p>
+                        Vestidos, saias, calças e calçados com descontos de até 200 reais.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <img alt='roupa masculina' src='recursos/imagens/Camisa-Masculina-Estampada-Tropical-Manga-Curta-Gola-Esporte-Azul-Escuro-9349996-Azul_Escuro_3.webp' />
+                    <h3 class="content-subhead">
+                        <i class="fa fa-mobile"></i> MODA MASCULINA COM 65% OFF
+                    </h3>
+                    <p>
+                        Casacos, bermudas e camisas com até 180 reais de desconto.
+                    </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                    <img alt='roupa infantil' src='recursos/imagens/Regata-Infantil-Batman-Gola-Careca-Cinza-Mescla-9138017-Cinza_Mescla_3.webp' />
+                    <h3 class="content-subhead">
+                        <i class="fa fa-th-large"></i> MODA INFANTIL 75% OFF
+                    </h3>
+                    <p>
+                        Calçados, roupas de heróis e princesas com descontos de até 300 reais.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="content">
+            <h2 class="is-center" id='head-email'>Receba as promoções antes de todo mundo</h2>
+
+            <div class="pure-g">
+                <div id='cadastro' class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                    <form class="pure-form pure-form-stacked">
+                        <fieldset>
+
+                            <label for="name">Nome</label>
+                            <input id="name" type="text" placeholder="Nome">
+
+
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="Email">
+
+
+
+                            <button type="submit" onclick="store()" class="pure-button">Pronto</button>
+
+                            <script type="text/javascript">
+                                function store() {
+                                    var inputEmail = document.getElementById("email");
+                                    var inputName = document.getElementById("name");
+                                    localStorage.setItem("email", inputEmail.value);
+                                    localStorage.setItem("name", inputName.value);
+                                }
+                            </script>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+
+
+                    <a href="https://www.cea.com.br/">
+                    C&A
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer l-box is-center">
+            Site com fins educativos para o programa Hiring Coders.
+        </div>
+
+    </div>
+
+</body>
+
+</html>
