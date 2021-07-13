@@ -39,7 +39,7 @@ label {
 .l-box-lrg {
     padding: 2em;
     border-bottom: 1px solid #fff;
-    margin: auto 20%;
+    margin: auto 40%;
 }
 
 .is-center {
@@ -79,42 +79,6 @@ a.pure-button-primary {
     padding: 2% 3%;
 }
 
-.home-menu {
-    padding: 0.5em;
-    text-align: center;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
-}
-
-.home-menu {
-    background: #2d3e50;
-}
-
-.pure-menu.pure-menu-fixed {
-    border-bottom: none;
-    z-index: 4;
-}
-
-.home-menu .pure-menu-heading {
-    color: white;
-    font-weight: 400;
-    font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-    color: white;
-}
-
-.home-menu a {
-    color: #6FBEF3;
-}
-
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
-
 .splash-container {
     background-image: url('imagens/3407598.png');
     z-index: 1;
@@ -150,6 +114,8 @@ a.pure-button-primary {
     font-size: 50px;
     line-height: 1em;
     color: #ddd;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 .splash-subhead {
@@ -157,7 +123,7 @@ a.pure-button-primary {
     letter-spacing: 0.05em;
     opacity: 0.8;
     font-size: 30px;
-    margin: auto 5% 7% 5%;
+    margin: auto 5% 10% 5%;
 }
 
 .content-wrapper {
