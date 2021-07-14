@@ -39,7 +39,7 @@ label {
 .l-box-lrg {
     padding: 2em;
     border-bottom: 1px solid #fff;
-    margin: auto 40%;
+    margin: auto;
 }
 
 .is-center {
@@ -58,6 +58,10 @@ label {
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
+}
+
+.pure-g img {
+    width: 40%;
 }
 
 .pure-button {
@@ -91,11 +95,11 @@ a.pure-button-primary {
 }
 
 .splash {
-    width: 80%;
-    height: 50%;
-    margin: auto;
+    width: auto;
+    height: auto;
+    margin: 17em auto 15em auto;
     position: absolute;
-    top: 100px;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -152,7 +156,7 @@ a.pure-button-primary {
 
 #head-email {
     background-color: #fff;
-    line-height: 300%;
+    line-height: 2em;
     color: #111111;
     font-size: 35px;
 }
@@ -182,6 +186,10 @@ a.pure-button-primary {
     width: 100%;
 }
 
+#cadastro {
+    width: 70%;
+}
+
 @media (min-width: 48em) {
     body {
         font-size: 16px;
@@ -197,7 +205,7 @@ a.pure-button-primary {
         height: 50%;
     }
     .splash-head {
-        font-size: 250%;
+        font-size: 200%;
     }
     .l-box-lrg {
         border: none;
@@ -206,6 +214,6 @@ a.pure-button-primary {
 
 @media (min-width: 78em) {
     .splash-head {
-        font-size: 500%;
+        font-size: 300%;
     }
 }
